@@ -37597,7 +37597,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fb0f47d2-4d64-454f-bf1d-5a6d4c5da37a")
 	)
-	(gr_text "sensors 0.2.0"
+	(gr_text "gps 0.1.0"
 		(at 157.5 81.5 0)
 		(layer "F.SilkS")
 		(uuid "18f64b87-7510-49e6-821b-b6c8873d000e")
