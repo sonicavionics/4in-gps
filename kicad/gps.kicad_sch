@@ -24289,7 +24289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GPSLIB:SMA-SMD_BWSMA-KE-P001"
+		(property "Footprint" "GPSLIB:SMA-TH_BWSMA-KWE-Z001"
 			(at 316.23 96.52 0)
 			(effects
 				(font
