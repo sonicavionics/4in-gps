@@ -8386,6 +8386,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 83.82) (xy 247.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e17f7e-e4c6-4f5c-acd3-4cc7adf0160c")
+	)
+	(wire
+		(pts
 			(xy 130.81 74.93) (xy 144.78 74.93)
 		)
 		(stroke
@@ -9286,7 +9296,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 81.28) (xy 247.65 81.28)
+			(xy 227.33 81.28) (xy 232.41 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9453,6 +9463,16 @@
 			(type default)
 		)
 		(uuid "8fb5fa1f-db4e-483a-8f04-410c1854697f")
+	)
+	(wire
+		(pts
+			(xy 240.03 81.28) (xy 247.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94eed7f2-c8f6-4891-8ce1-187a7434591d")
 	)
 	(wire
 		(pts
@@ -10276,7 +10296,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 83.82) (xy 247.65 83.82)
+			(xy 227.33 83.82) (xy 232.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -11025,7 +11045,7 @@
 	)
 	(global_label "GPS_USB_D+"
 		(shape input)
-		(at 241.3 83.82 180)
+		(at 227.33 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11035,7 +11055,7 @@
 		)
 		(uuid "348fade2-9a30-48db-b9aa-c256f632e7a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.9777 83.82 0)
+			(at 212.0077 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11333,7 +11353,7 @@
 	)
 	(global_label "GPS_USB_D-"
 		(shape input)
-		(at 241.3 81.28 180)
+		(at 227.33 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11343,7 +11363,7 @@
 		)
 		(uuid "9e63da72-6f45-48ab-bad5-92a3175bb3f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.9777 81.28 0)
+			(at 212.0077 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18426,6 +18446,181 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 236.22 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71ba3299-7c77-4ac6-9475-927ffefc3762")
+		(property "Reference" "R3"
+			(at 235.966 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 235.966 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 236.22 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25100"
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "no"
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "27 ohm"
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$0.0007 "
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/25843-0402WGF270JTCE/C25100"
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f7dcbc8-c13a-4922-a8fe-2486ec86ee1b")
+		)
+		(pin "2"
+			(uuid "408bf798-e68d-468e-8fce-a4e2dff40748")
+		)
+		(instances
+			(project "gps"
+				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 204.47 0)
 		(unit 1)
@@ -22741,6 +22936,181 @@
 			(project "gps"
 				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 236.22 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7386210-ead7-49d9-917f-ff3d773ce4ce")
+		(property "Reference" "R4"
+			(at 236.22 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 236.22 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 236.22 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25100"
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "no"
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "27 ohm"
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$0.0007 "
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/25843-0402WGF270JTCE/C25100"
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff775cc6-92ee-449e-8ed9-51b41a715d7b")
+		)
+		(pin "2"
+			(uuid "57bdc799-2777-4c98-9d58-2d24c96bdd13")
+		)
+		(instances
+			(project "gps"
+				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
+					(reference "R4")
 					(unit 1)
 				)
 			)
