@@ -11863,7 +11863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X322516MLB4SI:OSC_X322516MLB4SI"
+		(property "Footprint" "GPSLIB:OSC_X322516MLB4SI"
 			(at 304.8 231.14 0)
 			(effects
 				(font
@@ -13579,7 +13579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS-1187A-B-A-B:SW_TS-1187A-B-A-B"
+		(property "Footprint" "GPSLIB:SW_TS-1187A-B-A-B"
 			(at 48.26 67.31 0)
 			(effects
 				(font
@@ -15658,7 +15658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABM8-272-T3:ABM8-272-T3_ABR"
+		(property "Footprint" "GPSLIB:ABM8-272-T3_ABR"
 			(at 45.72 232.41 0)
 			(effects
 				(font
@@ -18828,7 +18828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP25625T_E_ML:QFN28_6X6MC_MCH"
+		(property "Footprint" "GPSLIB:QFN28_6X6MC_MCH"
 			(at 287.02 171.45 0)
 			(effects
 				(font
@@ -20522,7 +20522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS-1187A-B-A-B:SW_TS-1187A-B-A-B"
+		(property "Footprint" "GPSLIB:SW_TS-1187A-B-A-B"
 			(at 35.56 189.23 0)
 			(effects
 				(font
