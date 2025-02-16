@@ -16380,7 +16380,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25105"
+		(property "LCSC Part #" ""
 			(at 384.81 143.51 0)
 			(effects
 				(font
@@ -16398,7 +16398,7 @@
 				(hide yes)
 			)
 		)
-		(property "info" "1000 ohm"
+		(property "info" ""
 			(at 384.81 143.51 0)
 			(effects
 				(font
@@ -17547,7 +17547,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25105"
+		(property "LCSC Part #" ""
 			(at 377.19 143.51 0)
 			(effects
 				(font
@@ -17565,7 +17565,7 @@
 				(hide yes)
 			)
 		)
-		(property "info" "1000 ohm"
+		(property "info" ""
 			(at 377.19 143.51 0)
 			(effects
 				(font
