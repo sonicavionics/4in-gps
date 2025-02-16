@@ -12589,7 +12589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k"
 			(at 266.446 251.46 0)
 			(effects
 				(font
@@ -12625,7 +12625,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/23535-0603WAF1500T5E/C22808"
+		(property "JLC Link" ""
 			(at 271.78 250.19 0)
 			(effects
 				(font
@@ -12634,7 +12634,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22808"
+		(property "LCSC Part #" ""
 			(at 271.78 250.19 0)
 			(effects
 				(font
@@ -12652,7 +12652,7 @@
 				(hide yes)
 			)
 		)
-		(property "info" "150 ohm"
+		(property "info" ""
 			(at 271.78 250.19 0)
 			(effects
 				(font
@@ -21940,7 +21940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k"
 			(at 253.746 251.46 0)
 			(effects
 				(font
@@ -21976,7 +21976,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/23535-0603WAF1500T5E/C22808"
+		(property "JLC Link" ""
 			(at 259.08 250.19 0)
 			(effects
 				(font
@@ -21985,7 +21985,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22808"
+		(property "LCSC Part #" ""
 			(at 259.08 250.19 0)
 			(effects
 				(font
@@ -22003,7 +22003,7 @@
 				(hide yes)
 			)
 		)
-		(property "info" "150 ohm"
+		(property "info" ""
 			(at 259.08 250.19 0)
 			(effects
 				(font
