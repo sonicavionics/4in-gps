@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.025
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -468,6 +468,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50ANT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25041,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1326,
         "diff_pair_via_gap": 0.25,
@@ -485,10 +502,10 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.1,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.487,
+        "diff_pair_width": 0.21761,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -522,6 +539,18 @@
       {
         "netclass": "CANDIFF",
         "pattern": "CANN"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "GPS_USB_D-"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "GPS_USB_D+"
+      },
+      {
+        "netclass": "50ANT",
+        "pattern": "RF_ANT"
       }
     ]
   },
