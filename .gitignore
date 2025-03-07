@@ -41,8 +41,10 @@
 
 # OS-specific files
 **/.DS_Store
+**/*.DS_Store
 
 # Editor temporary files
 **/*~
 **/*.swp
 **/*.swo
+**/~$*
