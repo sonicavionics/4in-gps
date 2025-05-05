@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('KiCad electronic assembly'),'2;1');
-FILE_NAME('board.step','2025-02-16T22:51:53',('Pcbnew'),('Kicad'),
+FILE_NAME('board.step','2025-05-05T02:06:53',('Pcbnew'),('Kicad'),
   'Open CASCADE STEP processor 7.6','KiCad to STEP converter','Unknown'
   );
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
@@ -32,7 +32,7 @@ DATA;
 #21 = DIRECTION('',(0.,0.,1.));
 #22 = DIRECTION('',(1.,0.,0.));
 #23 = AXIS2_PLACEMENT_3D('',#24,#25,#26);
-#24 = CARTESIAN_POINT('',(131.63,-102.02,1.595));
+#24 = CARTESIAN_POINT('',(129.13,-102.,1.595));
 #25 = DIRECTION('',(1.224646799147E-16,1.,1.110223024625E-16));
 #26 = DIRECTION('',(-1.,1.224646799147E-16,0.));
 #27 = AXIS2_PLACEMENT_3D('',#28,#29,#30);
