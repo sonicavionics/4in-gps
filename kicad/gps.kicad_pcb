@@ -2095,7 +2095,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0dec3a4e-fbb3-47ab-9c0d-893e28fd5be6")
@@ -2107,7 +2107,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6140107e-508f-4f0e-bf6e-40e44c4a3ead")
 			(effects
@@ -2401,7 +2401,7 @@
 			(uuid "bf5e67b1-4e09-4726-a9ea-a438dd08d492")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1eaf5bfd-6e5a-414c-b228-a89c357fe96e")
 			(effects
@@ -2448,7 +2448,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D3"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "55f5f249-bab0-4c75-ab17-dd34a75f43d5")
@@ -2460,7 +2460,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at -0.4572 1.4732 360)
+			(at -0.4572 1.4732 0)
 			(layer "F.Fab")
 			(uuid "d6eb2876-63e1-4457-b7bc-fa1dea0dfcda")
 			(effects
@@ -2770,7 +2770,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3c71ff38-b38e-4c93-9ea5-44f9269f63c2")
 			(effects
@@ -6239,7 +6239,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D4"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "62bdea66-8d44-43c7-9e30-4f49d0d399bc")
@@ -6251,7 +6251,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9cec56f2-55e7-46f6-885e-7f5bd7e913d5")
 			(effects
@@ -6561,7 +6561,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "849da4e6-5319-42ac-baa4-f9737e8fa6e6")
 			(effects
@@ -19078,7 +19078,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 1.57 360)
+			(at 0 1.57 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c704cb8f-3dc4-4f17-aebe-4fc1176cc068")
@@ -19090,7 +19090,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "33cf37c0-0fd5-4c61-b01d-2466b58b55e9")
 			(effects
@@ -19384,7 +19384,7 @@
 			(uuid "9bfeb8cc-2608-482a-b044-655df9c24ba3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "634290ef-d177-48b0-b1a4-a23bfdd8b63f")
 			(effects
@@ -30093,7 +30093,7 @@
 		)
 	)
 	(gr_text "gps 0.2.0"
-		(at 159.866 77.123 0)
+		(at 152 121 90)
 		(layer "F.SilkS")
 		(uuid "6b5488a8-93bd-4986-a8cd-c8deba0eb2f9")
 		(effects
