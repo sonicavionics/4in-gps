@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "gpsmodule")(type "KiCad")(uri "${KIPRJMOD}/gpsmodule.kicad_sym")(options "")(descr ""))
+)
