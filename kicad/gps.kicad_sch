@@ -13319,7 +13319,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Value" "2998"
@@ -13328,7 +13329,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "BAT-SMD_C238096"
@@ -13337,6 +13339,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 				(hide yes)
 			)
 		)
@@ -13346,126 +13349,127 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Battery Holder for CR1220 Coin Cell, 1 Cell, Keystone 2998"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "SYMBOL" "2998"
+		(property "JLC Link" "https://jlcpcb.com/partdetail/C238096"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "DEVICE" "2998"
+		(property "LCSC Part #" "C238096"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "LCSC PART NAME" "2998"
+		(property "Basic?" "No"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER PART" "C238096"
+		(property "Price" "Not listed"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Keystone"
+		(property "Current Draw" "N/A (mechanical component)"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART" "2998"
+		(property "Notes" "Surface-mount battery holder for backup power; RoHS compliant"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER FOOTPRINT" "SMD"
+		(property "Height" "Not listed"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PART CLASS" "Extended Part"
+		(property "Manufacturer Name" "Keystone"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER" "LCSC"
+		(property "Manufacturer Part Number" "2998"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "ADD INTO BOM" "yes"
+		(property "Mouser Part Number" "Not listed"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "CONVERT TO PCB" "yes"
+		(property "Mouser Price/Stock" "Not listed"
 			(at 203.2 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
@@ -26776,7 +26780,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 283.21 55.88 90)
 			(effects
 				(font
@@ -26811,7 +26815,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/C25744"
+		(property "JLC Link" "https://jlcpcb.com/partdetail/C25879"
 			(at 280.67 55.88 90)
 			(effects
 				(font
@@ -26820,7 +26824,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C25879"
 			(at 280.67 55.88 90)
 			(effects
 				(font
@@ -26838,7 +26842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Info" "Thick Film Chip Resistor, 10 kΩ, 0402 package, ±1% tolerance, ±100 ppm/°C temperature coefficient, 1/16 W (62.5 mW) power rating"
+		(property "Info" "    62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2.2kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 280.67 55.88 90)
 			(effects
 				(font
@@ -26892,7 +26896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF1002TCE"
+		(property "Manufacturer Part Number" "0402WGF2201TCE"
 			(at 280.67 55.88 90)
 			(effects
 				(font
@@ -27593,7 +27597,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify top)
+				(hide yes)
 			)
 		)
 		(property "Value" "BWSMA-KE-P001"
@@ -27602,7 +27607,8 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "GPSLIB:SMA-TH_BWSMA-KWE-Z001"
@@ -27611,235 +27617,137 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240320/28FD502871C976DFF213ABFCF2A0ED51.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240320/28FD502871C976DFF213ABFCF2A0ED.pdf"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMA Female Connector, Through-Hole, Board-End, 50Ω"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "SYMBOL" "BWSMA-KE-P001"
+		(property "JLC Link" "https://jlcpcb.com/partdetail/C496550"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "DEVICE" "BWSMA-KE-P001"
+		(property "LCSC Part #" "C496550"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "LCSC PART NAME" "内孔 SMA 偏脚"
+		(property "Basic?" "No"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER PART" "C496550"
+		(property "Price" "Not listed"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "BAT WIRELESS(蝙蝠无线)"
+		(property "Current Draw" "N/A (passive component)"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART" "BWSMA-KE-P001"
+		(property "Notes" "Suitable for GNSS/High-Frequency RF applications; 50Ω impedance"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER FOOTPRINT" "SMD"
+		(property "Height" "Not specified"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PART CLASS" "Extended Part"
+		(property "Manufacturer Name" "BAT WIRELESS (蝙蝠无线)"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER" "LCSC"
+		(property "Manufacturer Part Number" "BWSMA-KE-P001"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "ADD INTO BOM" "yes"
+		(property "Mouser Part Number" "Not listed"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "CONVERT TO PCB" "yes"
+		(property "Mouser Price/Stock" "Not listed"
 			(at 317.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CONNECTOR TYPE" "Board-End"
-			(at 317.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERFACE TYPE" "Inner Hole"
-			(at 317.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF PORTS" "1"
-			(at 317.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERFACE DIAMETER" "5.2mm"
-			(at 317.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INTERFACE LENGTH/HEIGHT" "-"
-			(at 317.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FREQUENCY-MAX" "-"
-			(at 317.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RF SERIES" "SMA"
-			(at 317.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "IMPEDANCE" "50Ω"
-			(at 317.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STYLE" "Staggered pins"
-			(at 317.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OPERATING TEMPERATURE RANGE" "-"
-			(at 317.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+				(justify top)
 				(hide yes)
 			)
 		)
