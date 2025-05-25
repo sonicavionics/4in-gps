@@ -8769,6 +8769,12 @@
 		(uuid "f1a7e492-9e85-451f-9c66-93bce391f6eb")
 	)
 	(junction
+		(at 285.75 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1b4926d-2a56-461f-b779-088ffa09981c")
+	)
+	(junction
 		(at 77.47 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9210,7 +9216,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 68.58) (xy 304.8 68.58)
+			(xy 270.51 68.58) (xy 285.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -10618,6 +10624,16 @@
 		)
 		(uuid "9f2440c8-0532-483b-b5d7-0ee82ec71cbf")
 	)
+	(wire
+		(pts
+			(xy 285.75 68.58) (xy 304.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe15c26-4d07-424c-a978-5fc0ccefd0fe")
+	)
 	(polyline
 		(pts
 			(xy 194.31 283.21) (xy 144.78 283.21)
@@ -11745,7 +11761,7 @@
 		)
 		(uuid "3c92bd5e-e7dd-48ca-9b44-8e19b0fb78f4")
 	)
-	(text "GPS module 0.1.0"
+	(text "GPS module 0.2.0"
 		(exclude_from_sim no)
 		(at 330.962 264.668 0)
 		(effects
@@ -23872,6 +23888,70 @@
 			(project "gps"
 				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 285.75 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c7e97cc-855d-4ebf-b746-467bc8447964")
+		(property "Reference" "TP4"
+			(at 284.988 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP_RF"
+			(at 284.988 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 280.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a301c98-04b1-4696-b7d5-c2312f93db96")
+		)
+		(instances
+			(project "gps"
+				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
