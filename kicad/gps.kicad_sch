@@ -28178,7 +28178,7 @@
 		(dnp no)
 		(uuid "f1708504-5e34-4402-8595-ee61f1aeaa8d")
 		(property "Reference" "D1"
-			(at 295.656 78.74 90)
+			(at 294.132 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28187,21 +28187,20 @@
 			)
 		)
 		(property "Value" "PESD9R3.3ST5G"
-			(at 295.656 81.28 90)
+			(at 294.132 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify top)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 304.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -28296,16 +28295,6 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/TechPublic-PESD9R33ST5G/C2912536"
-			(at 304.8 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Current Draw" "0 (leakage only)"
 			(at 304.8 76.2 90)
 			(effects
 				(font
