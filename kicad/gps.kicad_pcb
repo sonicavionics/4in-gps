@@ -14021,6 +14021,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/1a3a153f-7fb5-4250-a95e-5b79930aa0e3")
+		(sheetname "/")
+		(sheetfile "gps.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 3.92)
@@ -18963,6 +18967,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
+		(path "/f1968c2e-2eea-4c41-b1be-def44ff60fd2")
+		(sheetname "/")
+		(sheetfile "gps.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -41850,7 +41858,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "BWSMA-KE-P001"
+		(property "Value" "BWSMA-KWE-Z001"
 			(at 0 0.210027 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -42148,7 +42156,7 @@
 				)
 			)
 		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/C496550"
+		(property "JLC Link" "https://jlcpcb.com/partdetail/C496551"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42161,7 +42169,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C496550"
+		(property "LCSC Part #" "C496551"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42252,7 +42260,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "BWSMA-KE-P001"
+		(property "Manufacturer Part Number" "BWSMA-KWE-Z001"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

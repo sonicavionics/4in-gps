@@ -38456,7 +38456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "BWSMA-KE-P001"
+		(property "Value" "BWSMA-KWE-Z001"
 			(at 318.77 77.216 0)
 			(effects
 				(font
@@ -38496,7 +38496,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/C496550"
+		(property "JLC Link" "https://jlcpcb.com/partdetail/C496551"
 			(at 317.5 68.58 0)
 			(effects
 				(font
@@ -38506,7 +38506,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C496550"
+		(property "LCSC Part #" "C496551"
 			(at 317.5 68.58 0)
 			(effects
 				(font
@@ -38576,7 +38576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "BWSMA-KE-P001"
+		(property "Manufacturer Part Number" "BWSMA-KWE-Z001"
 			(at 317.5 68.58 0)
 			(effects
 				(font
