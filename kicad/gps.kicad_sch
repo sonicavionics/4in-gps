@@ -13053,6 +13053,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 215.9) (xy 374.65 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3dfa313-29bd-483e-a565-56dedaa95646")
+	)
+	(wire
+		(pts
 			(xy 100.33 179.07) (xy 100.33 181.61)
 		)
 		(stroke
@@ -14250,6 +14260,16 @@
 			(justify left bottom)
 		)
 		(uuid "cbea90d0-685b-4f06-9963-4b0c05aa8c7e")
+	)
+	(label "VCC_RF"
+		(at 381 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d06cef10-a8f2-49e6-bdf3-3f8cb886d09e")
 	)
 	(label "QSPI_SD1"
 		(at 73.66 198.12 0)
@@ -21494,6 +21514,73 @@
 			(project "gps"
 				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 334.01 215.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34fdc95a-842e-4a07-90ed-dd150a77539a")
+		(property "Reference" "#PWR063"
+			(at 327.66 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 334.01 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5bbf2fa-68d6-48d8-b810-5c6ebc7c280d")
+		)
+		(instances
+			(project "gps"
+				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
