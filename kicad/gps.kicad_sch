@@ -10544,7 +10544,7 @@
 		)
 		(uuid "3c92bd5e-e7dd-48ca-9b44-8e19b0fb78f4")
 	)
-	(text "GPS module 0.2.0"
+	(text "GPS module 0.3.0"
 		(exclude_from_sim no)
 		(at 330.962 264.668 0)
 		(effects
@@ -11148,10 +11148,6 @@
 		(uuid "2212f210-e2df-4248-8ce9-9bbf69d2ca93")
 	)
 	(no_connect
-		(at 184.15 223.52)
-		(uuid "25e81474-d156-40fa-85f1-f2dc91eeda31")
-	)
-	(no_connect
 		(at 123.19 104.14)
 		(uuid "2bd0dad2-3bf6-4175-ba1a-df492f88f345")
 	)
@@ -11188,10 +11184,6 @@
 		(uuid "607684e6-78ee-47d5-b6f8-8aee813ede2d")
 	)
 	(no_connect
-		(at 153.67 223.52)
-		(uuid "622db830-e55a-4c19-8060-1c82513c0d8e")
-	)
-	(no_connect
 		(at 123.19 93.98)
 		(uuid "652c75d5-9101-472a-8c71-fe99742d94ae")
 	)
@@ -11202,10 +11194,6 @@
 	(no_connect
 		(at 123.19 78.74)
 		(uuid "6ba7e49f-39e0-440e-a00d-ee2a791a425a")
-	)
-	(no_connect
-		(at 317.5 231.14)
-		(uuid "747594b1-af1e-4980-92a9-6ad5aca86485")
 	)
 	(no_connect
 		(at 153.67 269.24)
@@ -11377,7 +11365,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 60.96) (xy 359.41 62.23)
+			(xy 354.33 60.96) (xy 354.33 62.23)
 		)
 		(stroke
 			(width 0)
@@ -11447,7 +11435,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 81.28) (xy 359.41 83.82)
+			(xy 354.33 81.28) (xy 354.33 83.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -11787,7 +11775,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 233.68) (xy 403.86 233.68)
+			(xy 373.38 233.68) (xy 405.13 233.68)
 		)
 		(stroke
 			(width 0)
@@ -11917,7 +11905,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 69.85) (xy 359.41 71.12)
+			(xy 354.33 69.85) (xy 354.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11977,7 +11965,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 83.82) (xy 351.79 81.28)
+			(xy 346.71 83.82) (xy 346.71 81.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -12047,7 +12035,27 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 48.26) (xy 359.41 45.72)
+			(xy 361.95 71.12) (xy 361.95 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40c50c86-8300-4b22-90b8-e9721658254f")
+	)
+	(wire
+		(pts
+			(xy 361.95 69.85) (xy 361.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ba4402-8996-4b56-bbd0-2163976c6bc8")
+	)
+	(wire
+		(pts
+			(xy 354.33 48.26) (xy 354.33 45.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -12067,13 +12075,23 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 60.96) (xy 351.79 62.23)
+			(xy 346.71 60.96) (xy 346.71 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44a1a2bd-99c5-4dc3-91b7-8cdbb8de2073")
+	)
+	(wire
+		(pts
+			(xy 361.95 60.96) (xy 361.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b97263-64dd-4cec-807d-7c76be2a5595")
 	)
 	(polyline
 		(pts
@@ -12084,6 +12102,16 @@
 			(type default)
 		)
 		(uuid "466386fe-c282-455f-931a-5c81fe6f0433")
+	)
+	(wire
+		(pts
+			(xy 312.42 223.52) (xy 312.42 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4665b913-662c-41cf-b677-8237d5d2dcb4")
 	)
 	(wire
 		(pts
@@ -12247,7 +12275,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 48.26) (xy 351.79 45.72)
+			(xy 346.71 48.26) (xy 346.71 45.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -12307,7 +12335,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 69.85) (xy 351.79 71.12)
+			(xy 346.71 69.85) (xy 346.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -12667,7 +12695,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 58.42) (xy 351.79 60.96)
+			(xy 346.71 58.42) (xy 346.71 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -13167,7 +13195,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 58.42) (xy 359.41 60.96)
+			(xy 354.33 58.42) (xy 354.33 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -13337,6 +13365,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 48.26) (xy 361.95 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a89f6022-3b56-4f56-b6bc-d10019151762")
+	)
+	(wire
+		(pts
 			(xy 280.67 59.69) (xy 280.67 63.5)
 		)
 		(stroke
@@ -13467,6 +13505,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 81.28) (xy 361.95 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b2116efb-0ab1-4544-9cbd-9a50e10a07f7")
+	)
+	(wire
+		(pts
 			(xy 44.45 254) (xy 44.45 261.62)
 		)
 		(stroke
@@ -13557,6 +13605,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 231.14) (xy 317.5 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd245ed9-4eff-4483-a97e-06f5299f20d4")
+	)
+	(wire
+		(pts
 			(xy 184.15 203.2) (xy 184.15 208.28)
 		)
 		(stroke
@@ -13624,6 +13682,16 @@
 			(type default)
 		)
 		(uuid "c293ef41-ef7e-49bc-bd60-5fbecc1f84e7")
+	)
+	(wire
+		(pts
+			(xy 361.95 58.42) (xy 361.95 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c2d296cf-8a99-45ad-881d-5086ca588e6b")
 	)
 	(wire
 		(pts
@@ -13907,7 +13975,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 73.66) (xy 351.79 71.12)
+			(xy 346.71 73.66) (xy 346.71 71.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -13987,7 +14055,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 71.12) (xy 359.41 73.66)
+			(xy 354.33 71.12) (xy 354.33 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -14147,7 +14215,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 231.14) (xy 379.73 220.98)
+			(xy 379.73 231.14) (xy 379.73 219.71)
 		)
 		(stroke
 			(width 0)
@@ -14476,7 +14544,7 @@
 		(uuid "12c3eae7-66c6-4ac9-9cb3-bc7af0bcb1e4")
 	)
 	(label "MUX_OUT"
-		(at 403.86 233.68 180)
+		(at 405.13 233.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14655,6 +14723,16 @@
 		)
 		(uuid "7c845afd-12f6-437c-a1c6-58c4359501c5")
 	)
+	(label "MUX_STAT"
+		(at 312.42 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f02f9b1-d7d9-41ee-b61d-ad6bf1e071e8")
+	)
 	(label "XIN"
 		(at 58.42 124.46 0)
 		(effects
@@ -14696,7 +14774,7 @@
 		(uuid "8f7b7444-9ccf-4988-b467-afde96a39332")
 	)
 	(label "LDO_OUT"
-		(at 379.73 220.98 270)
+		(at 379.73 219.71 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14714,6 +14792,16 @@
 			(justify left bottom)
 		)
 		(uuid "91f1711d-e111-4a55-bc51-59157e34db84")
+	)
+	(label "PLS"
+		(at 184.15 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "966bede3-e990-4e1f-bab1-3bff95f6f863")
 	)
 	(label "XIN"
 		(at 74.93 238.76 180)
@@ -14735,6 +14823,16 @@
 		)
 		(uuid "a1a14aa7-ad6c-44cc-b7c7-8cfaad3d3f5a")
 	)
+	(label "MUX_OUT"
+		(at 361.95 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7a91023-512d-4be0-af69-1a2e50a34521")
+	)
 	(label "QSPI_SS"
 		(at 58.42 96.52 0)
 		(effects
@@ -14744,6 +14842,16 @@
 			(justify left bottom)
 		)
 		(uuid "b63d6f06-64b7-4efa-9b74-d952f1f35afc")
+	)
+	(label "PLS"
+		(at 153.67 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b76cdbaf-d8d9-4798-8d25-1cfb8b904522")
 	)
 	(label "BACKUP"
 		(at 250.19 33.02 90)
@@ -14825,6 +14933,16 @@
 		)
 		(uuid "da997068-0588-43ff-b44b-e56a32bcbe07")
 	)
+	(label "MUX_STAT"
+		(at 361.95 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcbbe8d5-6ce9-4bf8-9b2a-0c2e8585aad1")
+	)
 	(label "LDO_OUT"
 		(at 384.81 196.85 0)
 		(effects
@@ -14846,7 +14964,7 @@
 		(uuid "eabee48c-1952-44ac-877f-e0d237503189")
 	)
 	(label "PLS"
-		(at 359.41 45.72 0)
+		(at 354.33 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17424,16 +17542,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VAA")
-		(at 274.32 256.54 0)
+		(lib_id "Device:LED")
+		(at 361.95 77.47 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0cf500b1-c969-460d-a9ca-557dfe019b21")
-		(property "Reference" "#PWR015"
-			(at 274.32 260.35 0)
+		(uuid "0f6e3dec-f11f-4056-817c-76c57f331315")
+		(property "Reference" "D3"
+			(at 364.49 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 364.236 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 361.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17441,16 +17576,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 274.32 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 256.54 0)
+		(property "Datasheet" "~"
+			(at 361.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17458,8 +17585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 274.32 256.54 0)
+		(property "Description" "Light emitting diode"
+			(at 361.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17467,8 +17594,287 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 274.32 256.54 0)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603B/C2288"
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2288"
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "Blue LED"
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$0.0075 "
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADD INTO BOM" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONVERT TO PCB" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY-MAX" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMPEDANCE" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE DIAMETER" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE LENGTH/HEIGHT" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE TYPE" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PART CLASS" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF PORTS" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING TEMPERATURE RANGE" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RF SERIES" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STYLE" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER FOOTPRINT" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SYMBOL" ""
+			(at 361.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17477,12 +17883,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "450b06d4-e028-4e3b-93b1-fab509f41123")
+			(uuid "33ea6d2a-0ccb-4041-b8b7-39169748a451")
+		)
+		(pin "2"
+			(uuid "153b5a53-2c0b-4480-b155-1c961cabd2e9")
 		)
 		(instances
 			(project "gps"
 				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
-					(reference "#PWR015")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -17856,7 +18265,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 351.79 45.72 0)
+		(at 346.71 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17865,7 +18274,7 @@
 		(fields_autoplaced yes)
 		(uuid "1064d048-7717-476e-87f0-f5b4ea0cc18d")
 		(property "Reference" "#PWR053"
-			(at 351.79 49.53 0)
+			(at 346.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17874,7 +18283,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 351.79 40.64 0)
+			(at 346.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17882,7 +18291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 45.72 0)
+			(at 346.71 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17891,7 +18300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 45.72 0)
+			(at 346.71 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17900,7 +18309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 351.79 45.72 0)
+			(at 346.71 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20573,7 +20982,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun u-blox GNSS MAX-M10S-eagle-import:JUMPER-SMT_2_NC_TRACE_SILK")
-		(at 359.41 53.34 90)
+		(at 354.33 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20581,7 +20990,7 @@
 		(dnp yes)
 		(uuid "20c4e0de-efed-4706-8c3e-d67b0936f6aa")
 		(property "Reference" "PPS_LED1"
-			(at 357.378 58.674 0)
+			(at 352.298 58.674 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -20590,7 +20999,7 @@
 			)
 		)
 		(property "Value" "JUMPER-SMT_2_NC_TRACE_SILK"
-			(at 362.458 53.34 0)
+			(at 357.378 53.34 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -20599,7 +21008,7 @@
 			)
 		)
 		(property "Footprint" "GPSLIB:SMT-JUMPER_2_NC_TRACE_SILK"
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20608,7 +21017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20617,7 +21026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20626,7 +21035,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20635,7 +21044,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20644,7 +21053,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20653,7 +21062,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20662,7 +21071,7 @@
 			)
 		)
 		(property "FREQUENCY-MAX" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20671,7 +21080,7 @@
 			)
 		)
 		(property "IMPEDANCE" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20680,7 +21089,7 @@
 			)
 		)
 		(property "INTERFACE DIAMETER" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20689,7 +21098,7 @@
 			)
 		)
 		(property "INTERFACE LENGTH/HEIGHT" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20698,7 +21107,7 @@
 			)
 		)
 		(property "INTERFACE TYPE" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20707,7 +21116,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20716,7 +21125,7 @@
 			)
 		)
 		(property "LCSC PART NAME" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20725,7 +21134,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20734,7 +21143,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20743,7 +21152,7 @@
 			)
 		)
 		(property "NUMBER OF PORTS" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20752,7 +21161,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE RANGE" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20761,7 +21170,7 @@
 			)
 		)
 		(property "RF SERIES" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20770,7 +21179,7 @@
 			)
 		)
 		(property "STYLE" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20779,7 +21188,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20788,7 +21197,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20797,7 +21206,7 @@
 			)
 		)
 		(property "SUPPLIER PART" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20806,7 +21215,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 359.41 53.34 0)
+			(at 354.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20824,428 +21233,6 @@
 			(project "gps"
 				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
 					(reference "PPS_LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 274.32 260.35 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2457bb08-09bc-4a25-826e-9e8c41dde9db")
-		(property "Reference" "D3"
-			(at 276.86 261.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 279.146 261.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2286"
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basic?" "yes"
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "info" "Red LED"
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "C$0.0075 "
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "notes" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONNECTOR TYPE" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FREQUENCY-MAX" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMPEDANCE" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERFACE DIAMETER" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERFACE LENGTH/HEIGHT" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERFACE TYPE" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB PART CLASS" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PART NAME" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF PORTS" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING TEMPERATURE RANGE" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RF SERIES" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STYLE" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER FOOTPRINT" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" ""
-			(at 274.32 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9297346c-eb05-4074-a9ae-1484505731b1")
-		)
-		(pin "2"
-			(uuid "886ee0f0-062a-4a97-a974-9e3b3f2a50a1")
-		)
-		(instances
-			(project "gps"
-				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 274.32 271.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "263add5d-02ed-4f9f-b9a7-6549bf08db12")
-		(property "Reference" "#PWR016"
-			(at 274.32 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 274.447 276.1742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf5d9dee-e578-4304-bb5c-160d7a792464")
-		)
-		(instances
-			(project "gps"
-				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -21921,6 +21908,72 @@
 			(project "gps"
 				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 361.95 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d91be5d-192f-40dd-bf83-dcf9c8782cd8")
+		(property "Reference" "#PWR015"
+			(at 361.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "806c9aec-4304-4dd3-9959-2ec5b4238f37")
+		)
+		(instances
+			(project "gps"
+				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -24077,6 +24130,264 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun u-blox GNSS MAX-M10S-eagle-import:JUMPER-SMT_2_NC_TRACE_SILK")
+		(at 361.95 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4218151b-a56d-4e26-b560-aaa596d6ad4e")
+		(property "Reference" "STAT_LED1"
+			(at 359.918 58.674 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "JUMPER-SMT_2_NC_TRACE_SILK"
+			(at 364.998 53.34 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GPSLIB:SMT-JUMPER_2_NC_TRACE_SILK"
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADD INTO BOM" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONVERT TO PCB" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY-MAX" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMPEDANCE" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE DIAMETER" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE LENGTH/HEIGHT" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE TYPE" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PART CLASS" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF PORTS" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING TEMPERATURE RANGE" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RF SERIES" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STYLE" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER FOOTPRINT" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SYMBOL" ""
+			(at 361.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "335477f1-0c93-4e89-9875-7991a7c3c1b4")
+		)
+		(pin "2"
+			(uuid "9b648555-1c6e-42f7-9d34-f7b7478881b0")
+		)
+		(instances
+			(project "gps"
+				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
+					(reference "STAT_LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun u-blox GNSS MAX-M10S-eagle-import:DIODE-SCHOTTKY-PMEG4005EJ")
 		(at 203.2 120.65 270)
 		(unit 1)
@@ -25254,6 +25565,361 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 361.95 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c4ff0dd-89db-4096-852c-8bc3bb295a6f")
+		(property "Reference" "R7"
+			(at 360.172 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 361.95 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 363.728 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "basic?" "yes"
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "info" "1k ohm"
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "C$0.0007"
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "notes" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADD INTO BOM" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONVERT TO PCB" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY-MAX" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMPEDANCE" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE DIAMETER" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE LENGTH/HEIGHT" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE TYPE" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PART CLASS" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF PORTS" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING TEMPERATURE RANGE" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RF SERIES" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STYLE" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER FOOTPRINT" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SYMBOL" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80dc964e-001b-438e-9dda-a2714b0d43a7")
+		)
+		(pin "1"
+			(uuid "62db85cf-caed-4719-a8fa-5f974576740b")
+		)
+		(instances
+			(project "gps"
+				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 161.29 0)
 		(unit 1)
@@ -26409,7 +27075,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 359.41 66.04 180)
+		(at 354.33 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26417,7 +27083,7 @@
 		(dnp no)
 		(uuid "5632ccf9-79e6-44be-8447-4979ad663b88")
 		(property "Reference" "R22"
-			(at 357.632 69.85 90)
+			(at 352.552 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26425,7 +27091,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 359.41 66.04 90)
+			(at 354.33 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26433,7 +27099,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 361.188 66.04 90)
+			(at 356.108 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26442,7 +27108,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26451,7 +27117,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26460,7 +27126,7 @@
 			)
 		)
 		(property "LCSC Part #" "C11702"
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26469,7 +27135,7 @@
 			)
 		)
 		(property "basic?" "yes"
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26478,7 +27144,7 @@
 			)
 		)
 		(property "info" "1k ohm"
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26487,7 +27153,7 @@
 			)
 		)
 		(property "price" "C$0.0007"
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26496,7 +27162,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26505,7 +27171,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26514,7 +27180,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26523,7 +27189,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26532,7 +27198,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26541,7 +27207,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26550,7 +27216,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26559,7 +27225,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26568,7 +27234,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26577,7 +27243,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26586,7 +27252,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26595,7 +27261,7 @@
 			)
 		)
 		(property "FREQUENCY-MAX" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26604,7 +27270,7 @@
 			)
 		)
 		(property "IMPEDANCE" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26613,7 +27279,7 @@
 			)
 		)
 		(property "INTERFACE DIAMETER" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26622,7 +27288,7 @@
 			)
 		)
 		(property "INTERFACE LENGTH/HEIGHT" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26631,7 +27297,7 @@
 			)
 		)
 		(property "INTERFACE TYPE" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26640,7 +27306,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26649,7 +27315,7 @@
 			)
 		)
 		(property "LCSC PART NAME" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26658,7 +27324,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26667,7 +27333,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26676,7 +27342,7 @@
 			)
 		)
 		(property "NUMBER OF PORTS" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26685,7 +27351,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE RANGE" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26694,7 +27360,7 @@
 			)
 		)
 		(property "RF SERIES" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26703,7 +27369,7 @@
 			)
 		)
 		(property "STYLE" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26712,7 +27378,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26721,7 +27387,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26730,7 +27396,7 @@
 			)
 		)
 		(property "SUPPLIER PART" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26739,7 +27405,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 359.41 66.04 0)
+			(at 354.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27798,7 +28464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 83.82 0)
+		(at 354.33 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27807,7 +28473,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a1c4406-ec16-4c58-ad16-b25070976aff")
 		(property "Reference" "#PWR049"
-			(at 359.41 90.17 0)
+			(at 354.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27816,7 +28482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.41 88.9 0)
+			(at 354.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27824,7 +28490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 83.82 0)
+			(at 354.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27833,7 +28499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 83.82 0)
+			(at 354.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27842,7 +28508,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 83.82 0)
+			(at 354.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28911,7 +29577,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 351.79 66.04 180)
+		(at 346.71 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28919,7 +29585,7 @@
 		(dnp no)
 		(uuid "66475c71-3db1-4ef4-bba9-da9673094764")
 		(property "Reference" "R20"
-			(at 350.012 69.85 90)
+			(at 344.932 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28927,7 +29593,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 351.79 66.04 90)
+			(at 346.71 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28935,7 +29601,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 353.568 66.04 90)
+			(at 348.488 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28944,7 +29610,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28953,7 +29619,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28962,7 +29628,7 @@
 			)
 		)
 		(property "LCSC Part #" "C11702"
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28971,7 +29637,7 @@
 			)
 		)
 		(property "basic?" "yes"
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28980,7 +29646,7 @@
 			)
 		)
 		(property "info" "1k ohm"
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28989,7 +29655,7 @@
 			)
 		)
 		(property "price" "C$0.0007"
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28998,7 +29664,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29007,7 +29673,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29016,7 +29682,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29025,7 +29691,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29034,7 +29700,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29043,7 +29709,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29052,7 +29718,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29061,7 +29727,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29070,7 +29736,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29079,7 +29745,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29088,7 +29754,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29097,7 +29763,7 @@
 			)
 		)
 		(property "FREQUENCY-MAX" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29106,7 +29772,7 @@
 			)
 		)
 		(property "IMPEDANCE" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29115,7 +29781,7 @@
 			)
 		)
 		(property "INTERFACE DIAMETER" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29124,7 +29790,7 @@
 			)
 		)
 		(property "INTERFACE LENGTH/HEIGHT" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29133,7 +29799,7 @@
 			)
 		)
 		(property "INTERFACE TYPE" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29142,7 +29808,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29151,7 +29817,7 @@
 			)
 		)
 		(property "LCSC PART NAME" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29160,7 +29826,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29169,7 +29835,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29178,7 +29844,7 @@
 			)
 		)
 		(property "NUMBER OF PORTS" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29187,7 +29853,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE RANGE" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29196,7 +29862,7 @@
 			)
 		)
 		(property "RF SERIES" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29205,7 +29871,7 @@
 			)
 		)
 		(property "STYLE" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29214,7 +29880,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29223,7 +29889,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29232,7 +29898,7 @@
 			)
 		)
 		(property "SUPPLIER PART" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29241,7 +29907,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 351.79 66.04 0)
+			(at 346.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30920,299 +31586,6 @@
 			(project "gps"
 				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 274.32 267.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ffa6cb6-4e71-4ea2-89da-62dca1f4fcb8")
-		(property "Reference" "R7"
-			(at 268.986 266.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "1 k"
-			(at 268.986 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 272.542 267.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.uniroyal-elec.com/datasheet/060x_series.pdf"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick-film SMD resistor, 100 mW, ±1 %, ±100 ppm/°C"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/14815-0603WAF1001T5E/C21190"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "basic?" "yes"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "info" "100 mW, 75 V, ±100 ppm/°C, ±1 %, 1 kΩ"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "price" "C$0.0008"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "notes" "Same series/style as 0402WGF, but in 0603 package"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6 mm"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "UNI-ROYAL (Uniroyal Elec)"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603WAF1001T5E"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "950-0603WAF1001T5E"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "US $0.03 ea (stock ≥ 10 000)"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C21190"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "≥ 50 000 pcs"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.mouser.com/ProductDetail/Uniroyal-Elec/0603WAF1001T5E"
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 274.32 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "316604ad-b503-40f6-9376-caef92fd0265")
-		)
-		(pin "1"
-			(uuid "4b1cb216-33ef-4c2a-9faf-28b7273a1129")
-		)
-		(instances
-			(project "gps"
-				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -39723,7 +40096,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 359.41 77.47 270)
+		(at 354.33 77.47 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39732,7 +40105,7 @@
 		(dnp no)
 		(uuid "d75593a8-157f-4dc1-bfd8-2c216d90070a")
 		(property "Reference" "D5"
-			(at 361.95 78.994 0)
+			(at 356.87 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39740,7 +40113,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 361.696 82.296 0)
+			(at 356.616 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39748,7 +40121,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39757,7 +40130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39766,7 +40139,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39775,7 +40148,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603B/C2288"
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39784,7 +40157,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2288"
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39793,7 +40166,7 @@
 			)
 		)
 		(property "basic?" "yes"
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39802,7 +40175,7 @@
 			)
 		)
 		(property "info" "Blue LED"
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39811,7 +40184,7 @@
 			)
 		)
 		(property "price" "C$0.0075 "
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39820,7 +40193,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39829,7 +40202,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39838,7 +40211,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39847,7 +40220,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39856,7 +40229,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39865,7 +40238,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39874,7 +40247,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39883,7 +40256,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39892,7 +40265,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39901,7 +40274,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39910,7 +40283,7 @@
 			)
 		)
 		(property "FREQUENCY-MAX" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39919,7 +40292,7 @@
 			)
 		)
 		(property "IMPEDANCE" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39928,7 +40301,7 @@
 			)
 		)
 		(property "INTERFACE DIAMETER" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39937,7 +40310,7 @@
 			)
 		)
 		(property "INTERFACE LENGTH/HEIGHT" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39946,7 +40319,7 @@
 			)
 		)
 		(property "INTERFACE TYPE" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39955,7 +40328,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39964,7 +40337,7 @@
 			)
 		)
 		(property "LCSC PART NAME" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39973,7 +40346,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39982,7 +40355,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39991,7 +40364,7 @@
 			)
 		)
 		(property "NUMBER OF PORTS" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40000,7 +40373,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE RANGE" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40009,7 +40382,7 @@
 			)
 		)
 		(property "RF SERIES" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40018,7 +40391,7 @@
 			)
 		)
 		(property "STYLE" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40027,7 +40400,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40036,7 +40409,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40045,7 +40418,7 @@
 			)
 		)
 		(property "SUPPLIER PART" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40054,7 +40427,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 359.41 77.47 0)
+			(at 354.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42391,7 +42764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 351.79 83.82 0)
+		(at 346.71 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42400,7 +42773,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9fbc7f6-4f85-48bd-86ba-5fd0f0631df7")
 		(property "Reference" "#PWR048"
-			(at 351.79 90.17 0)
+			(at 346.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42409,7 +42782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 351.79 88.9 0)
+			(at 346.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42417,7 +42790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 83.82 0)
+			(at 346.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42426,7 +42799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 83.82 0)
+			(at 346.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42435,7 +42808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 351.79 83.82 0)
+			(at 346.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43576,7 +43949,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 351.79 77.47 270)
+		(at 346.71 77.47 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43585,7 +43958,7 @@
 		(dnp no)
 		(uuid "f18a5ef7-eeb5-425e-810c-06866720ed51")
 		(property "Reference" "D6"
-			(at 354.33 78.994 0)
+			(at 349.25 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43593,7 +43966,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 354.076 82.296 0)
+			(at 348.996 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43601,7 +43974,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43610,7 +43983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43619,7 +43992,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43628,7 +44001,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43637,7 +44010,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2286"
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43646,7 +44019,7 @@
 			)
 		)
 		(property "basic?" "yes"
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43655,7 +44028,7 @@
 			)
 		)
 		(property "info" "Red LED"
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43664,7 +44037,7 @@
 			)
 		)
 		(property "price" "C$0.0075 "
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43673,7 +44046,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43682,7 +44055,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43691,7 +44064,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43700,7 +44073,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43709,7 +44082,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43718,7 +44091,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43727,7 +44100,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43736,7 +44109,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43745,7 +44118,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43754,7 +44127,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43763,7 +44136,7 @@
 			)
 		)
 		(property "FREQUENCY-MAX" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43772,7 +44145,7 @@
 			)
 		)
 		(property "IMPEDANCE" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43781,7 +44154,7 @@
 			)
 		)
 		(property "INTERFACE DIAMETER" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43790,7 +44163,7 @@
 			)
 		)
 		(property "INTERFACE LENGTH/HEIGHT" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43799,7 +44172,7 @@
 			)
 		)
 		(property "INTERFACE TYPE" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43808,7 +44181,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43817,7 +44190,7 @@
 			)
 		)
 		(property "LCSC PART NAME" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43826,7 +44199,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43835,7 +44208,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43844,7 +44217,7 @@
 			)
 		)
 		(property "NUMBER OF PORTS" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43853,7 +44226,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE RANGE" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43862,7 +44235,7 @@
 			)
 		)
 		(property "RF SERIES" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43871,7 +44244,7 @@
 			)
 		)
 		(property "STYLE" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43880,7 +44253,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43889,7 +44262,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43898,7 +44271,7 @@
 			)
 		)
 		(property "SUPPLIER PART" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43907,7 +44280,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 351.79 77.47 0)
+			(at 346.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45353,7 +45726,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun u-blox GNSS MAX-M10S-eagle-import:JUMPER-SMT_2_NC_TRACE_SILK")
-		(at 351.79 53.34 90)
+		(at 346.71 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45361,7 +45734,7 @@
 		(dnp yes)
 		(uuid "f441ceb5-6d71-4a37-a2ee-4da73d68dd95")
 		(property "Reference" "PWR1"
-			(at 350.012 55.372 0)
+			(at 344.932 55.372 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -45370,7 +45743,7 @@
 			)
 		)
 		(property "Value" "JUMPER-SMT_2_NC_TRACE_SILK"
-			(at 354.838 53.34 0)
+			(at 349.758 53.34 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -45379,7 +45752,7 @@
 			)
 		)
 		(property "Footprint" "GPSLIB:SMT-JUMPER_2_NC_TRACE_SILK"
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45388,7 +45761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45397,7 +45770,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45406,7 +45779,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45415,7 +45788,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45424,7 +45797,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45433,7 +45806,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45442,7 +45815,7 @@
 			)
 		)
 		(property "FREQUENCY-MAX" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45451,7 +45824,7 @@
 			)
 		)
 		(property "IMPEDANCE" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45460,7 +45833,7 @@
 			)
 		)
 		(property "INTERFACE DIAMETER" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45469,7 +45842,7 @@
 			)
 		)
 		(property "INTERFACE LENGTH/HEIGHT" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45478,7 +45851,7 @@
 			)
 		)
 		(property "INTERFACE TYPE" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45487,7 +45860,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45496,7 +45869,7 @@
 			)
 		)
 		(property "LCSC PART NAME" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45505,7 +45878,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45514,7 +45887,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45523,7 +45896,7 @@
 			)
 		)
 		(property "NUMBER OF PORTS" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45532,7 +45905,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE RANGE" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45541,7 +45914,7 @@
 			)
 		)
 		(property "RF SERIES" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45550,7 +45923,7 @@
 			)
 		)
 		(property "STYLE" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45559,7 +45932,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45568,7 +45941,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45577,7 +45950,7 @@
 			)
 		)
 		(property "SUPPLIER PART" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45586,7 +45959,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 351.79 53.34 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
