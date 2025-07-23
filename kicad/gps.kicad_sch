@@ -7100,257 +7100,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "gpsmodule:2998"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BAT?"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "2998"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BAT-SMD_C238096"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230321/9B0FF98D776DD7434BFCACF61B2BBCED.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SYMBOL" "2998"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DEVICE" "2998"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "LCSC PART NAME" "2998"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER PART" "C238096"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Keystone"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER PART" "2998"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER FOOTPRINT" "SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB PART CLASS" "Extended Part"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ADD INTO BOM" "yes"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "CONVERT TO PCB" "yes"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BAT-SMD_C238096*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2998_1_0"
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 2.54)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "gpsmodule:Antenna"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7779,6 +7528,306 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "gpsmodule:FC0V474ZFTBR24"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "FC0V474ZFTBR24"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "FC0V474ZFTBR24_KEM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "FC0V474ZFTBR24"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "FC0V474ZFTBR24"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "FC0V474ZFTBR24_KEM FC0V474ZFTBR24_KEM-M FC0V474ZFTBR24_KEM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FC0V474ZFTBR24_1_1"
+				(polyline
+					(pts
+						(xy 1.5748 1.27) (xy 2.8448 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2098 0.635) (xy 2.2098 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.7541 -1.9108)
+					(mid 4.1148 0)
+					(end 4.7541 1.9108)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "FC0V474ZFTBR24_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.9108 -4.7541)
+					(mid 0 -4.1148)
+					(end 1.9108 -4.7541)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -2.2098) (xy 1.905 -2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.5748) (xy 1.27 -2.8448)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10477,6 +10526,12 @@
 		(uuid "ff41930c-4bc2-42e7-a503-1c0661186ba6")
 	)
 	(junction
+		(at 203.2 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0313c1d2-85ba-4bd5-aad9-3bcbb635c721")
+	)
+	(junction
 		(at 59.69 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10505,12 +10560,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "104cd2f1-befe-40fe-b8a8-63c9160cc17b")
-	)
-	(junction
-		(at 203.2 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "165b1c66-ba63-4332-8ecf-f965282adca4")
 	)
 	(junction
 		(at 153.67 233.68)
@@ -10637,12 +10686,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61602cf4-8350-4d0c-adcb-a21b496682e9")
-	)
-	(junction
-		(at 203.2 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64752e65-892f-49a8-a883-43623157a693")
 	)
 	(junction
 		(at 257.81 38.1)
@@ -11148,6 +11191,16 @@
 		)
 		(uuid "0c4d18b7-a08c-4a63-901c-e34fa6b41228")
 	)
+	(wire
+		(pts
+			(xy 203.2 137.16) (xy 203.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da976db-2b35-42d1-af09-3967be543742")
+	)
 	(polyline
 		(pts
 			(xy 237.49 101.6) (xy 238.76 101.6)
@@ -11318,6 +11371,16 @@
 		)
 		(uuid "233d9c8a-3d52-4ec2-be98-2cce006ee6c1")
 	)
+	(wire
+		(pts
+			(xy 203.2 138.43) (xy 203.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268b5311-0ea3-4988-a1af-bfb40ae6ef24")
+	)
 	(polyline
 		(pts
 			(xy 238.76 101.6) (xy 298.45 101.6)
@@ -11480,6 +11543,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 127) (xy 218.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fca554e-c52b-436c-a5a7-aca3938e2f33")
+	)
+	(wire
+		(pts
 			(xy 228.6 59.69) (xy 226.06 59.69)
 		)
 		(stroke
@@ -11497,16 +11570,6 @@
 			(type default)
 		)
 		(uuid "325e6289-133a-4a27-a000-59255825878c")
-	)
-	(wire
-		(pts
-			(xy 201.93 139.7) (xy 203.2 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3266e0db-f663-45e3-bad0-deb8833289ad")
 	)
 	(wire
 		(pts
@@ -11730,16 +11793,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 139.7) (xy 204.47 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a9f3344-0e58-4c67-8dd6-6057bb66e8e4")
-	)
-	(wire
-		(pts
 			(xy 304.8 68.58) (xy 307.34 68.58)
 		)
 		(stroke
@@ -11757,16 +11810,6 @@
 			(type default)
 		)
 		(uuid "4bb05ea4-3bf0-4483-a7e6-ce1fd77f3a2a")
-	)
-	(wire
-		(pts
-			(xy 203.2 134.62) (xy 203.2 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c13b215-282a-43a9-940d-8b4ec2c67c52")
 	)
 	(polyline
 		(pts
@@ -12300,16 +12343,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 135.89) (xy 203.2 138.43)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "755b9832-5d61-4b00-8463-4067b6ce5cde")
-	)
-	(wire
-		(pts
 			(xy 228.6 53.34) (xy 234.95 53.34)
 		)
 		(stroke
@@ -12377,6 +12410,16 @@
 			(type default)
 		)
 		(uuid "79bf6047-5851-4f46-b90c-794c88b3dc9e")
+	)
+	(wire
+		(pts
+			(xy 218.44 137.16) (xy 203.2 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cd94d2-46d7-479b-b619-02b239a6fefb")
 	)
 	(wire
 		(pts
@@ -12697,16 +12740,6 @@
 			(type default)
 		)
 		(uuid "96a12262-282a-4daf-b44e-c537efe9fa2a")
-	)
-	(wire
-		(pts
-			(xy 201.93 139.7) (xy 201.93 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97138ef3-f09e-43a3-9ca3-c7b17520506f")
 	)
 	(wire
 		(pts
@@ -13580,16 +13613,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 138.43) (xy 203.2 139.7)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "dfe1d2ea-655e-47f3-93f8-f13c0b72175c")
-	)
-	(wire
-		(pts
 			(xy 205.74 217.17) (xy 208.28 217.17)
 		)
 		(stroke
@@ -13757,16 +13780,6 @@
 			(type default)
 		)
 		(uuid "f16f33ba-c68d-48a7-8e2f-fa7cb59481fb")
-	)
-	(wire
-		(pts
-			(xy 204.47 139.7) (xy 204.47 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f18595e3-125b-4b31-ba87-547c606e3b3e")
 	)
 	(polyline
 		(pts
@@ -15416,383 +15429,6 @@
 			(project "gps"
 				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "gpsmodule:2998")
-		(at 203.2 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0868cc38-29c5-4748-8761-4b9193de2b83")
-		(property "Reference" "BAT1"
-			(at 208.28 144.7799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "2998"
-			(at 208.28 147.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "BAT-SMD_C238096"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230321/9B0FF98D776DD7434BFCACF61B2BBCED.pdf"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Battery Holder for CR1220 Coin Cell, 1 Cell, Keystone 2998TR"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "JLC Link" "https://jlcpcb.com/partdetail/Keystone-2998TR/C6078169"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C6078169"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Basic?" "No"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Price" "Not listed"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Current Draw" "N/A (mechanical component)"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Surface-mount battery holder for backup power; RoHS compliant"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Height" "Not listed"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" "Keystone"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "2998TR"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "Not listed"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "Not listed"
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONNECTOR TYPE" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FREQUENCY-MAX" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMPEDANCE" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERFACE DIAMETER" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERFACE LENGTH/HEIGHT" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERFACE TYPE" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB PART CLASS" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PART NAME" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF PORTS" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING TEMPERATURE RANGE" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RF SERIES" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STYLE" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER FOOTPRINT" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" ""
-			(at 203.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81b9f6fc-f73c-42ee-aed0-a43ceda01e06")
-		)
-		(pin "1"
-			(uuid "a8fcb776-6c68-45c5-897f-ba96e37da1a6")
-		)
-		(pin "3"
-			(uuid "64052260-4d81-42f0-8ccc-1a75bc971760")
-		)
-		(instances
-			(project ""
-				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
-					(reference "BAT1")
 					(unit 1)
 				)
 			)
@@ -22343,8 +21979,87 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+150℃ 1 N-Channel + 1 P-Channel 1V@250uA 2.7Ω@1.8V,150mA 20V 280mW 600mA N-Channel + P-Channel SOT-563 MOSFETs ROHS"
 			(at 359.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/VishayIntertech-SI1016X_T1GE3/C142570"
+			(at 359.41 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C142570"
+			(at 359.41 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Basic Part?" "Yes"
+			(at 359.41 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Info" "-55℃~+150℃ 1 N-Channel + 1 P-Channel 1V@250uA 2.7Ω@1.8V,150mA 20V 280mW 600mA N-Channel + P-Channel SOT-563 MOSFETs ROHS"
+			(at 359.41 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Price" "C$0.0418 (1+)"
+			(at 359.41 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" "N/A (controlled by gate; I<sub>D</sub> max = -0.82 A)"
+			(at 359.41 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Name" "Vishay Intertech "
+			(at 359.41 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SI1016X-T1-GE3"
+			(at 359.41 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26556,7 +26271,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 130.81 180)
+		(at 207.01 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26564,7 +26279,7 @@
 		(dnp no)
 		(uuid "5e3aeffa-0955-40c5-ab95-91414e5cf2bc")
 		(property "Reference" "R9"
-			(at 206.248 130.048 0)
+			(at 206.248 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26572,7 +26287,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 203.2 130.81 90)
+			(at 207.01 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26580,7 +26295,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 204.978 130.81 90)
+			(at 207.01 125.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26589,7 +26304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26598,7 +26313,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26607,7 +26322,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/26679-0402WGJ0332TCE/C25936"
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26616,7 +26331,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25936"
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26625,7 +26340,7 @@
 			)
 		)
 		(property "basic?" "yes"
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26634,7 +26349,7 @@
 			)
 		)
 		(property "info" "3.3k ohm"
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26643,7 +26358,7 @@
 			)
 		)
 		(property "price" "C$0.0007 "
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26652,7 +26367,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26661,7 +26376,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26670,7 +26385,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26679,7 +26394,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26688,7 +26403,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26697,7 +26412,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26706,7 +26421,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26715,7 +26430,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26724,7 +26439,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26733,7 +26448,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26742,7 +26457,7 @@
 			)
 		)
 		(property "FREQUENCY-MAX" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26751,7 +26466,7 @@
 			)
 		)
 		(property "IMPEDANCE" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26760,7 +26475,7 @@
 			)
 		)
 		(property "INTERFACE DIAMETER" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26769,7 +26484,7 @@
 			)
 		)
 		(property "INTERFACE LENGTH/HEIGHT" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26778,7 +26493,7 @@
 			)
 		)
 		(property "INTERFACE TYPE" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26787,7 +26502,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26796,7 +26511,7 @@
 			)
 		)
 		(property "LCSC PART NAME" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26805,7 +26520,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26814,7 +26529,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26823,7 +26538,7 @@
 			)
 		)
 		(property "NUMBER OF PORTS" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26832,7 +26547,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE RANGE" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26841,7 +26556,7 @@
 			)
 		)
 		(property "RF SERIES" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26850,7 +26565,7 @@
 			)
 		)
 		(property "STYLE" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26859,7 +26574,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26868,7 +26583,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26877,7 +26592,7 @@
 			)
 		)
 		(property "SUPPLIER PART" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26886,7 +26601,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 203.2 130.81 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30775,6 +30490,78 @@
 			(project "gps"
 				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "gpsmodule:FC0V474ZFTBR24")
+		(at 203.2 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "77c41560-e505-4547-9cdf-f7337c69873e")
+		(property "Reference" "C23"
+			(at 207.01 145.5673 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FC0V474ZFTBR24"
+			(at 207.01 148.1073 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GPSLIB:FC0V474ZFTBR24_KEM"
+			(at 203.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "FC0V474ZFTBR24"
+			(at 203.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f95ebbd-09fc-41f5-8617-f038d1c68fa4")
+		)
+		(pin "2"
+			(uuid "ca2e9ef7-a3bc-4813-a774-44a10043e2f2")
+		)
+		(instances
+			(project ""
+				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -37298,6 +37085,264 @@
 			(project "gps"
 				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun u-blox GNSS MAX-M10S-eagle-import:JUMPER-SMT_2_NC_TRACE_SILK")
+		(at 218.44 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ca12c044-5545-4bea-b47a-2893e009577c")
+		(property "Reference" "BAT"
+			(at 216.662 134.112 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "JUMPER-SMT_2_NC_TRACE_SILK"
+			(at 221.488 132.08 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GPSLIB:SMT-JUMPER_2_NC_TRACE_SILK"
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADD INTO BOM" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONVERT TO PCB" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY-MAX" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMPEDANCE" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE DIAMETER" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE LENGTH/HEIGHT" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE TYPE" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PART CLASS" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF PORTS" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING TEMPERATURE RANGE" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RF SERIES" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STYLE" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER FOOTPRINT" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SYMBOL" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86b4f42c-45fc-4c35-9ce5-cd725d43c4ab")
+		)
+		(pin "1"
+			(uuid "bec7fbf7-6bb5-46fe-abe7-4c146e7ca096")
+		)
+		(instances
+			(project "gps"
+				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
+					(reference "BAT")
 					(unit 1)
 				)
 			)
