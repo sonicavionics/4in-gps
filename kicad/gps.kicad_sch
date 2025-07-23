@@ -11605,6 +11605,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 92.71) (xy 278.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b54610a-4ee5-4706-bd74-0840e338f7fd")
+	)
+	(wire
+		(pts
 			(xy 312.42 196.85) (xy 312.42 208.28)
 		)
 		(stroke
@@ -11642,6 +11652,16 @@
 			(type default)
 		)
 		(uuid "20fc9fe6-4a02-482a-b654-70d1fb213166")
+	)
+	(wire
+		(pts
+			(xy 290.83 92.71) (xy 288.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21689d5f-053e-41b8-91ab-c4b64cd0d67c")
 	)
 	(wire
 		(pts
@@ -14513,6 +14533,16 @@
 		)
 		(uuid "ff6da607-2605-4b76-8c40-bdbc29f650e7")
 	)
+	(label "PLS_JMP"
+		(at 184.15 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0397c069-f507-43c0-a5cc-0b6faa3f323a")
+	)
 	(label "BIAS_T"
 		(at 278.13 38.1 180)
 		(effects
@@ -14532,6 +14562,16 @@
 			(justify left bottom)
 		)
 		(uuid "11b7227c-5ebd-452f-a542-6f10720117b8")
+	)
+	(label "PLS"
+		(at 275.59 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11cd0f0a-00f2-45d7-a9e2-cd80926696c8")
 	)
 	(label "BIAS_T"
 		(at 336.55 154.94 0)
@@ -14763,6 +14803,16 @@
 		)
 		(uuid "89125ae4-0191-45f8-9477-cbd49fd3b62b")
 	)
+	(label "PLS_JMP"
+		(at 153.67 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b5ac41d-5166-474d-a66c-3d98583edbfb")
+	)
 	(label "ANT_SWITCH_N"
 		(at 275.59 81.28 0)
 		(effects
@@ -14793,16 +14843,6 @@
 		)
 		(uuid "91f1711d-e111-4a55-bc51-59157e34db84")
 	)
-	(label "PLS"
-		(at 184.15 223.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "966bede3-e990-4e1f-bab1-3bff95f6f863")
-	)
 	(label "XIN"
 		(at 74.93 238.76 180)
 		(effects
@@ -14812,6 +14852,16 @@
 			(justify right bottom)
 		)
 		(uuid "9876b964-1e9b-4857-8629-68c91095d956")
+	)
+	(label "PLS_JMP"
+		(at 290.83 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d38a3be-2463-4c67-a573-3192985d1069")
 	)
 	(label "QSPI_SD3"
 		(at 73.66 203.2 0)
@@ -14842,16 +14892,6 @@
 			(justify left bottom)
 		)
 		(uuid "b63d6f06-64b7-4efa-9b74-d952f1f35afc")
-	)
-	(label "PLS"
-		(at 153.67 223.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b76cdbaf-d8d9-4798-8d25-1cfb8b904522")
 	)
 	(label "BACKUP"
 		(at 250.19 33.02 90)
@@ -37885,6 +37925,264 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun u-blox GNSS MAX-M10S-eagle-import:JUMPER-SMT_2_NC_TRACE_SILK")
+		(at 283.21 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b05afbfa-89d8-4867-a8f8-fbe9ec1e9494")
+		(property "Reference" "PLS_JMP1"
+			(at 289.052 88.392 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "JUMPER-SMT_2_NC_TRACE_SILK"
+			(at 283.21 89.662 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADD INTO BOM" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONVERT TO PCB" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY-MAX" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMPEDANCE" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE DIAMETER" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE LENGTH/HEIGHT" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE TYPE" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PART CLASS" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF PORTS" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING TEMPERATURE RANGE" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RF SERIES" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STYLE" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER FOOTPRINT" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SYMBOL" ""
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a4ba379-75fe-4a72-b494-5d6a46dd4699")
+		)
+		(pin "1"
+			(uuid "e6c4487e-4734-42b8-b5de-7936936b9ee6")
+		)
+		(instances
+			(project "gps"
+				(path "/e1ff46b9-0cf9-4507-8034-1e95fc3013fc"
+					(reference "PLS_JMP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 232.41 262.89 0)
 		(unit 1)
@@ -45127,7 +45425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "GPSLIB:SMT-JUMPER_2_NC_TRACE_SILK"
+		(property "Footprint" "GPSLIB:SMT-JUMPER_2"
 			(at 270.51 29.21 0)
 			(effects
 				(font
