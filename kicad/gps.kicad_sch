@@ -11080,12 +11080,6 @@
 		(uuid "0fdf46ab-fc75-4bfe-b814-2430ad32273f")
 	)
 	(junction
-		(at 36.83 250.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "104cd2f1-befe-40fe-b8a8-63c9160cc17b")
-	)
-	(junction
 		(at 381 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13311,16 +13305,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 250.19) (xy 41.91 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a355e0e-3234-48a0-aca9-d77a11960d14")
-	)
-	(wire
-		(pts
 			(xy 214.63 53.34) (xy 219.71 53.34)
 		)
 		(stroke
@@ -14041,16 +14025,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 250.19) (xy 36.83 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b196878e-c193-45f7-ac6c-de660e756df4")
-	)
-	(wire
-		(pts
 			(xy 361.95 81.28) (xy 361.95 83.82)
 		)
 		(stroke
@@ -14238,6 +14212,16 @@
 			(type solid)
 		)
 		(uuid "c2d296cf-8a99-45ad-881d-5086ca588e6b")
+	)
+	(wire
+		(pts
+			(xy 33.02 250.19) (xy 36.83 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35fd4a9-7ed2-4da3-9af7-05f82593d118")
 	)
 	(wire
 		(pts
@@ -15510,12 +15494,12 @@
 		(uuid "8fcc152a-f9e4-4375-a691-ea88a3d62e94")
 	)
 	(label "BACKUP"
-		(at 227.33 138.43 0)
+		(at 233.68 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "91f1711d-e111-4a55-bc51-59157e34db84")
 	)
@@ -15620,12 +15604,12 @@
 		(uuid "b63d6f06-64b7-4efa-9b74-d952f1f35afc")
 	)
 	(label "BACKUP"
-		(at 250.19 33.02 90)
+		(at 250.19 25.4 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b7e0161c-2e19-4b7a-bb5e-6539d159a2dd")
 	)
