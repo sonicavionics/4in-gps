@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,76 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|121199499|119166650|aa96c388-8e40-4f6d-9d66-01b932299edc|c4e06190-f5da-4822-9bff-d5f083333b92",
+          ""
+        ],
+        [
+          "clearance|121910701|119300000|32ea9727-1f87-4704-802a-d21c4567137f|c4e06190-f5da-4822-9bff-d5f083333b92",
+          ""
+        ],
+        [
+          "clearance|143309999|117400000|77985d5c-d804-43c9-af6f-652fdd3c67b6|7e1dd074-717e-4028-8eef-1a23b6ead101",
+          ""
+        ],
+        [
+          "clearance|143443349|116688798|e5368283-5366-4611-9dda-0e1fb3429e45|7e1dd074-717e-4028-8eef-1a23b6ead101",
+          ""
+        ],
+        [
+          "clearance|146667000|117399451|ba699eb4-c54e-475a-88ef-822a3e2f8810|5b22c90a-ab07-4d67-8f0c-2fab0cc725f4",
+          ""
+        ],
+        [
+          "clearance|146800350|116688249|0b6ffd9c-87e2-4eba-be8c-8c3d90549da0|5b22c90a-ab07-4d67-8f0c-2fab0cc725f4",
+          ""
+        ],
+        [
+          "clearance|152504501|74429451|35fd8f54-5324-4a26-b324-e630ebef784f|936a23ee-f49f-43f8-8f3f-a4aca0c592da",
+          ""
+        ],
+        [
+          "clearance|152637851|73718249|835aa57d-34f8-4afe-982b-89d329ee94a5|936a23ee-f49f-43f8-8f3f-a4aca0c592da",
+          ""
+        ],
+        [
+          "lib_footprint_issues|139149107|78950425|69ccba3f-0148-4215-89e6-9eebafa57d86|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|165169500|91411000|87715ae3-e712-4cae-8c3c-4e8fb65fc8fd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|172740000|93670000|0fd435fb-7873-4613-beaa-a2b0e6b25c92|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|134200000|118300000|92fccf88-e2e4-4077-a416-b90463299204|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|140343200|103929999|67efc856-4900-4466-8461-5aa22413c3f0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|154840000|110940000|75264cc5-ef94-4781-a160-b04bf85a26b5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|158890000|118315000|2d31c1b8-24ab-40e1-9ef2-1e1d4c11f356|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|163142500|101985000|54c2bdbc-95ee-40e9-b08f-1719ec5aa300|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|171250000|110460000|4c57bd54-7ffa-4b8a-9e94-9e9f010814a0|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -492,7 +561,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -501,7 +569,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.32977,
+        "track_width": 0.3129,
         "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
@@ -509,13 +577,12 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.04369,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.3,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1201,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "CANDIFF",
+        "name": "CANDIFF_120",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -527,9 +594,8 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.10727,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.2294,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -537,7 +603,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.16,
+        "track_width": 0.2294,
         "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
@@ -558,11 +624,11 @@
         "pattern": "USB_D+"
       },
       {
-        "netclass": "CANDIFF",
+        "netclass": "CANDIFF_120",
         "pattern": "CANP"
       },
       {
-        "netclass": "CANDIFF",
+        "netclass": "CANDIFF_120",
         "pattern": "CANN"
       },
       {
